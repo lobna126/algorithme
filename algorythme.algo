@@ -1,0 +1,23 @@
+ALGORITHM phrase
+VAR
+   i,lang,nbrm,nbrc, nbrv, :INTEGER :=0
+   v,:CHAR :=("a""e""i""o""u")
+  ph:string
+BEGIN
+repeat
+write("écrire une phrase qui se termine par une point")
+read(ph)
+until lang-1:= .
+  FOR i FROM 1 TO l-1 DO
+   if (c !'')
+    nbrc:=nbrc+1
+   else if (i[1]=v)
+   nbrv:=nbrv+1
+   else if (C:= '') 
+   nbrm:=nbrm+1
+   
+  END_FOR
+  read(nbrc)
+  read(nbrv)
+  read(nbrm)
+ENDm
